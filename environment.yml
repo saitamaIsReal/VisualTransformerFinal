@@ -1,0 +1,17 @@
+name: vit_fsii
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch          # oder 'torch==1.14.0+cu117' (je nach CUDA)
+    - torchvision
+    - transformers
+    - shapiq
+    - pillow
+    - requests
+    - scikit-image
+    - jupyterlab     
